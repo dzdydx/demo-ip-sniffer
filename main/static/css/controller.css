@@ -1,0 +1,23 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e7e7e7;
+  background-size: cover; /* 铺满屏幕，屏幕变小，图片可能显示不下 */
+  background-size: 100% 100%; /* 铺满屏幕，随屏幕变化而变化比例，图片可能被拉伸 */
+}
+
+
+@media screen and (orientation: portrait) { /* 竖屏 */
+
+} 
+@media screen and (orientation: landscape) { /* 横屏 */
+
+}
